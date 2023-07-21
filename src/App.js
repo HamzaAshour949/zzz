@@ -15,7 +15,7 @@ function App() {
           <Link to={`/page3`}>page3</Link>
         </li>
       </ul>
-      <BrowserRouter basename='zzz/'>
+      <BrowserRouter>
         <Routes>
           <Route
             path="/"
